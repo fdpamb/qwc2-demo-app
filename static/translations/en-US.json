@@ -3,7 +3,7 @@
   "messages": {
     "appmenu": {
       "items": {
-        "ExternalLink": "External Link",
+        "ExternalLink": "",
         "AttributeTable": "Attribute Table",
         "Cyclomedia": "Cyclomedia",
         "DxfExport": "DXF Export",
@@ -35,7 +35,7 @@
       "menulabel": "Map & Tools"
     },
     "search": {
-      "coordinates": "Coordinates",
+      "coordinates": "",
       "all": "All",
       "enablelayer": "Enable layer",
       "existinglayer": "The layer already exists in the map",
@@ -50,9 +50,9 @@
       "themes": "Themes"
     },
     "colorschemes": {
-      "default": "Default",
-      "dark": "Dark",
-      "highcontrast": "High contrast"
+      "default": "",
+      "dark": "",
+      "highcontrast": ""
     },
     "attribtable": {
       "addfeature": "Add feature",
@@ -97,7 +97,7 @@
       "mousepos_label": "Coordinates",
       "scale_label": "Scale",
       "terms_label": "Terms of use",
-      "viewertitle_label": "QWC2 Demo"
+      "viewertitle_label": ""
     },
     "copybtn": {
       "click_to_copy": "Click to copy",

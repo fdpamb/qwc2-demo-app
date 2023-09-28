@@ -46,7 +46,7 @@
     "textFont": "11pt sans-serif"
   },
   "importLayerUrlPresets": [
-    {"label": "Swisstopo WMTS", "value": "https://wmts10.geo.admin.ch/EPSG/2056/1.0.0/WMTSCapabilities.xml"}
+    {"label": "GridQube-EQL WFS", "value": "https://geoserver.hq.gridqube.com/geoserver/EQL/ows?service=WFS&version=2.0.0&request=GetFeature"}
   ],
   "projections": [
     {
@@ -199,8 +199,8 @@
       {
         "name": "BottomBar",
         "cfg": {
-          "viewertitleUrl": "http://qgis.org/",
-          "termsUrl": "http://qgis.org/",
+          "viewertitleUrl": "",
+          "termsUrl": "",
           "viewertitleUrlTarget": "_blank"
         }
       },
