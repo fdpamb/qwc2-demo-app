@@ -38,11 +38,11 @@ import MapInfoTooltipPlugin from 'qwc2/plugins/MapInfoTooltip';
 import MapLegendPlugin from 'qwc2/plugins/MapLegend';
 import MapTipPlugin from 'qwc2/plugins/MapTip';
 import MeasurePlugin from 'qwc2/plugins/Measure';
-import NewsPopupPlugin from 'qwc2/plugins/NewsPopup';
+//import NewsPopupPlugin from 'qwc2/plugins/NewsPopup';
 import OverviewMapPlugin from 'qwc2/plugins/OverviewMap';
 import PortalPlugin from 'qwc2/plugins/Portal';
 import PrintPlugin from 'qwc2/plugins/Print';
-import ProcessNotificationsPlugin from 'qwc2/plugins/ProcessNotifications';
+//import ProcessNotificationsPlugin from 'qwc2/plugins/ProcessNotifications';
 import RedliningPlugin from 'qwc2/plugins/Redlining';
 import ReportsPlugin from 'qwc2/plugins/Reports';
 import RoutingPlugin from 'qwc2/plugins/Routing';
@@ -107,11 +107,11 @@ export default {
             MapLegendPlugin: MapLegendPlugin,
             MapTipPlugin: MapTipPlugin,
             MeasurePlugin: MeasurePlugin,
-            NewsPopupPlugin: NewsPopupPlugin,
+            //NewsPopupPlugin: NewsPopupPlugin,
             OverviewMapPlugin: OverviewMapPlugin,
             PortalPlugin: PortalPlugin,
             PrintPlugin: PrintPlugin,
-            ProcessNotificationsPlugin: ProcessNotificationsPlugin,
+            //ProcessNotificationsPlugin: ProcessNotificationsPlugin,
             RedliningPlugin: RedliningPlugin({
                 BufferSupport: BufferSupport
             }),

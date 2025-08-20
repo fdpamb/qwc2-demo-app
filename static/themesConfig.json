@@ -12,18 +12,18 @@
     "defaultBackgroundLayers": [],
     "defaultSearchProviders": ["coordinates"],
     "defaultMapCrs": "EPSG:3857",
-    "defaultTheme": "qwc_demo",
+    "defaultTheme": "GridQube-EQL-WMS",
     "themes": {
         "items": [
             {
-                "id": "qwc_demo",
-                "title": "QWC Demo Theme",
-                "url": "http://qwc2.sourcepole.ch/ows/qwc_demo",
-                "attribution": "Demo attribution",
-                "attributionUrl": "https://example.com/",
+                "id": "GridQube-EQL-WMS",
+                "title": "GridQube-EQL WMS",
+                "url": "https://geoserver.hq.gridqube.com/geoserver/ows",
+                "attribution": "",
+                "attributionUrl": "https://geoserver.hq.gridqube.com/geoserver",
                 "backgroundLayers": [
-                    {"name": "bluemarble", "printLayer": "bluemarble_bg", "visibility": true},
-                    {"name": "mapnik", "printLayer": "osm_bg"}
+                    {"name": "bluemarble", "printLayer": "bluemarble_bg"},
+                    {"name": "mapnik", "printLayer": "osm_bg", "visibility": true}
                 ],
                 "searchProviders": [
                     "coordinates",
@@ -37,9 +37,9 @@
                 ],
                 "mapCrs": "EPSG:3857",
                 "additionalMouseCrs": [],
-                "extent": [-1000000,4000000,3000000,8000000],
+                "extent": [15000000,-1000000,17000000,-3750000],
                 "printResolutions": [100, 300],
-                "thumbnail": "qwc_demo.jpg",
+                "thumbnail": "default.jpg",
                 "featureReport": {
                     "countries": "Country"
                 },
